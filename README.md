@@ -6,9 +6,32 @@ Cisco Live Protect integrates [Cilium Tetragon](https://tetragon.io/) runtime se
 
 ## Prerequisites
 
-- Cisco NX-OS switch with Live Protect support
+### Platform Requirements
+
+- **NX-OS Version**: Cisco NX-OS Release 10.6(1)F or later
+- **Supported Hardware**: 
+  - Cisco Nexus 9300-FX, -FX2, -FX3, -GX, -GX2, -H1, and -H2R switches
+  - Minimum 24GB RAM required
+- **Unsupported Hardware**: 
+  - SiliconOne switches (including Nexus 9800 and N9324C-SE1U)
+
+### Software Requirements
+
 - Administrative access to the switch
 - Basic understanding of Linux containers and eBPF
+
+### Feature Enablement
+
+Before using Live Protect, you must enable the `nxsecure` feature:
+
+```bash
+# From NX-OS CLI
+switch# configure terminal
+switch(config)# feature nxsecure
+switch(config)# exit
+```
+
+> ⚠️ **Important**: The `nxsecure` feature must be enabled before Live Protect functionality becomes available. See the [official documentation](https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/106x/configuration/security/cisco-nexus-9000-series-nx-os-security-configuration-guide-release-106x/m-secure-nxos-with-cisco-live-protect.html#g-) for complete setup instructions.
 
 ## Getting Started
 
