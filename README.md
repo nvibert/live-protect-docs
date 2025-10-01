@@ -138,5 +138,9 @@ grep -i "violation\|blocked\|denied" /nxos/nxsecure/tetragon_logs/*.log
 - [Isovalent + Cisco Nexus: Better Together](https://isovalent.com/blog/post/isovalent-cisco-nexus-better-together/)
 
 ### Video Resources
-- [Cisco Live Protect Demo Video](https://youtu.be/9mKFCtyw_VU)
-- [Live Demo: Cisco Live Protect in Action](https://www.youtube.com/live/JDvmlECqYg4?si=W97OXcpCv9NQnFMv&t=1689)
+
+#### Cisco Live Protect Demo Video
+[![Cisco Live Protect Demo](https://img.youtube.com/vi/9mKFCtyw_VU/maxresdefault.jpg)](https://youtu.be/9mKFCtyw_VU)
+
+#### Live Demo: Cisco Live Protect in Action
+[![Live Demo: Cisco Live Protect in Action](https://img.youtube.com/vi/JDvmlECqYg4/maxresdefault.jpg)](https://www.youtube.com/live/JDvmlECqYg4?si=W97OXcpCv9NQnFMv&t=1689)
