@@ -4,6 +4,35 @@
 
 Cisco Live Protect integrates [Cilium Tetragon](https://tetragon.io/) runtime security observability and enforcement directly into Cisco NX-OS switches. This provides real-time security monitoring, threat detection, and policy enforcement at the network infrastructure level.
 
+## Current Implementation Status
+
+### Phase 1 QR1F Release - Observability Only
+
+Live Protect in its current Phase 1 implementation focuses on **security observability** rather than enforcement. The system monitors and logs security events but does not block or prevent activities.
+
+#### Available Monitoring Policies
+
+The current Phase 1 QR1F release includes three primary monitoring policies:
+
+1. **Process Execution Monitoring** - Monitor all process executions by user admin
+2. **Privileged Execution Detection** - Monitor privileged process execution by admin user (escalations to root)
+3. **VSH Command Monitoring** - Monitor all Virtual Shell (VSH) executions by non-root users
+
+#### Policy Management
+
+- **Location**: Policies are stored in `/isan/etc/nxsecure/mandate/phase1/`
+- **Format**: YAML-based policy definitions
+- **Mandate File**: `phase1-mandate.yaml` contains the current active policy set
+- **No Tracing Policies**: Phase 1 does not include tracing policies
+
+#### Future Roadmap
+
+- **Enforcement Capabilities**: Future releases will include policy enforcement (blocking/preventing actions)
+- **Extended Policies**: Additional monitoring and security policies are planned for staging releases
+- **Vulnerability Detection**: Advanced threat detection capabilities are in development
+
+> 📋 **Note**: This is an observability-first approach that allows administrators to understand system behavior and security events before implementing enforcement policies.
+
 ## Prerequisites
 
 ### Platform Requirements
@@ -99,9 +128,9 @@ cat /isan/etc/nxsecure/mandate/README.md
 ls -la /isan/etc/nxsecure/mandate/
 ```
 
-### Security Policies
+### Current Policy Set (Phase 1 QR1F)
 
-Tetragon policies are located in the phase1 alerts directory:
+Live Protect currently ships with three monitoring policies located in the phase1 alerts directory:
 
 ```bash
 # View available policies
@@ -109,6 +138,25 @@ ls -la /isan/etc/nxsecure/mandate/phase1/alerts/
 
 # Examine policy files
 cat /isan/etc/nxsecure/mandate/phase1/alerts/*.yaml
+
+# View the current mandate file
+cat /isan/etc/nxsecure/mandate/phase1-mandate.yaml
+```
+
+#### Active Monitoring Policies:
+
+1. **Admin Process Execution** - Tracks all process executions by the admin user
+2. **Privilege Escalation Detection** - Monitors when admin user processes gain root privileges  
+3. **Non-Root VSH Access** - Logs Virtual Shell command execution by non-root users
+
+### Custom Policy Development
+
+For development and testing of custom policies:
+
+```bash
+# Generate a custom mandate file
+cd /isan/etc/nxsecure/mandate/
+./generate_mandate.py your-policy-directory > custom-mandate.yaml
 ```
 ## Monitoring and Logging
 
@@ -141,6 +189,27 @@ tail -f /nxos/nxsecure/tetragon_logs/tetragon.log | grep "process_exec"
 # Check for policy violations
 grep -i "violation\|blocked\|denied" /nxos/nxsecure/tetragon_logs/*.log
 ```
+
+### Sample Log Files
+
+This repository includes three sample Tetragon log files demonstrating different types of events that Live Protect captures:
+
+#### 1. Standard Tetragon Log (`sample-logs/tetragon-log-sample.json`)
+- **Description**: Basic process execution event showing standard system activity
+- **Event Type**: `process_exec` 
+- **Details**: Shows a `cat` command execution with full process context including PID, UID, capabilities, and parent process information
+
+#### 2. Privileged Execution Alert (`sample-logs/privilege-execution-by-admin.json`)
+- **Description**: Security alert triggered by privileged command execution by an administrator
+- **Event Type**: `process_exec` with security context
+- **Details**: Demonstrates how Live Protect tracks administrative actions and potential privilege escalation scenarios
+
+#### 3. VSH Execution by Non-Root User (`sample-logs/vsh-exec-non-root.json`)
+- **Description**: NX-OS Virtual Shell (VSH) command execution by a non-root user
+- **Event Type**: `process_exec` for `/isan/bin/vsh_perm`
+- **Details**: Shows how Live Protect monitors NX-OS specific binaries and user interactions with the switch CLI
+
+These sample logs help you understand the structure and types of events that Tetragon captures on Cisco NX-OS switches.
 
 
 ### Getting Help

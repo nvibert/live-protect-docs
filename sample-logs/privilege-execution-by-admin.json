@@ -1,0 +1,1520 @@
+{
+    "event": {
+        "process_exec": {
+            "process": {
+                "exec_id": "bmV4dXM6Nzk2NTIzNzQ3NjgwNzY6MjMwNDM=",
+                "pid": 23043,
+                "uid": 0,
+                "cwd": "/nxos/nxsecure/tetragon_logs",
+                "binary": "/bin/cat",
+                "arguments": "alert-rule-2-privilege-execution-by-admin.log",
+                "flags": "execve clone",
+                "start_time": "2025-09-05T11:05:09.239082747Z",
+                "auid": 2002,
+                "parent_exec_id": "bmV4dXM6Nzk2MTMzNTkyMzQ3NjQ6MjI1Mzc=",
+                "cap": {
+                    "permitted": [
+                        "CAP_CHOWN",
+                        "DAC_OVERRIDE",
+                        "CAP_DAC_READ_SEARCH",
+                        "CAP_FOWNER",
+                        "CAP_FSETID",
+                        "CAP_KILL",
+                        "CAP_SETGID",
+                        "CAP_SETUID",
+                        "CAP_SETPCAP",
+                        "CAP_LINUX_IMMUTABLE",
+                        "CAP_NET_BIND_SERVICE",
+                        "CAP_NET_BROADCAST",
+                        "CAP_NET_ADMIN",
+                        "CAP_NET_RAW",
+                        "CAP_IPC_LOCK",
+                        "CAP_IPC_OWNER",
+                        "CAP_SYS_MODULE",
+                        "CAP_SYS_RAWIO",
+                        "CAP_SYS_CHROOT",
+                        "CAP_SYS_PTRACE",
+                        "CAP_SYS_PACCT",
+                        "CAP_SYS_ADMIN",
+                        "CAP_SYS_BOOT",
+                        "CAP_SYS_NICE",
+                        "CAP_SYS_RESOURCE",
+                        "CAP_SYS_TIME",
+                        "CAP_SYS_TTY_CONFIG",
+                        "CAP_MKNOD",
+                        "CAP_LEASE",
+                        "CAP_AUDIT_WRITE",
+                        "CAP_AUDIT_CONTROL",
+                        "CAP_SETFCAP",
+                        "CAP_MAC_OVERRIDE",
+                        "CAP_MAC_ADMIN",
+                        "CAP_SYSLOG",
+                        "CAP_WAKE_ALARM",
+                        "CAP_BLOCK_SUSPEND",
+                        "CAP_AUDIT_READ",
+                        "CAP_PERFMON",
+                        "CAP_BPF",
+                        "CAP_CHECKPOINT_RESTORE"
+                    ],
+                    "effective": [
+                        "CAP_CHOWN",
+                        "DAC_OVERRIDE",
+                        "CAP_DAC_READ_SEARCH",
+                        "CAP_FOWNER",
+                        "CAP_FSETID",
+                        "CAP_KILL",
+                        "CAP_SETGID",
+                        "CAP_SETUID",
+                        "CAP_SETPCAP",
+                        "CAP_LINUX_IMMUTABLE",
+                        "CAP_NET_BIND_SERVICE",
+                        "CAP_NET_BROADCAST",
+                        "CAP_NET_ADMIN",
+                        "CAP_NET_RAW",
+                        "CAP_IPC_LOCK",
+                        "CAP_IPC_OWNER",
+                        "CAP_SYS_MODULE",
+                        "CAP_SYS_RAWIO",
+                        "CAP_SYS_CHROOT",
+                        "CAP_SYS_PTRACE",
+                        "CAP_SYS_PACCT",
+                        "CAP_SYS_ADMIN",
+                        "CAP_SYS_BOOT",
+                        "CAP_SYS_NICE",
+                        "CAP_SYS_RESOURCE",
+                        "CAP_SYS_TIME",
+                        "CAP_SYS_TTY_CONFIG",
+                        "CAP_MKNOD",
+                        "CAP_LEASE",
+                        "CAP_AUDIT_WRITE",
+                        "CAP_AUDIT_CONTROL",
+                        "CAP_SETFCAP",
+                        "CAP_MAC_OVERRIDE",
+                        "CAP_MAC_ADMIN",
+                        "CAP_SYSLOG",
+                        "CAP_WAKE_ALARM",
+                        "CAP_BLOCK_SUSPEND",
+                        "CAP_AUDIT_READ",
+                        "CAP_PERFMON",
+                        "CAP_BPF",
+                        "CAP_CHECKPOINT_RESTORE"
+                    ]
+                },
+                "ns": {
+                    "uts": {
+                        "inum": 4026532654
+                    },
+                    "ipc": {
+                        "inum": 4026532655
+                    },
+                    "mnt": {
+                        "inum": 4026532653
+                    },
+                    "pid": {
+                        "inum": 4026532656
+                    },
+                    "pid_for_children": {
+                        "inum": 4026532656
+                    },
+                    "net": {
+                        "inum": 4026532008,
+                        "is_host": true
+                    },
+                    "time": {
+                        "inum": 4026531834,
+                        "is_host": true
+                    },
+                    "time_for_children": {
+                        "inum": 4026531834,
+                        "is_host": true
+                    },
+                    "cgroup": {
+                        "inum": 4026531835,
+                        "is_host": true
+                    },
+                    "user": {
+                        "inum": 4026531837,
+                        "is_host": true
+                    }
+                },
+                "tid": 23043,
+                "process_credentials": {
+                    "uid": 0,
+                    "gid": 0,
+                    "euid": 0,
+                    "egid": 0,
+                    "suid": 0,
+                    "sgid": 0,
+                    "fsuid": 0,
+                    "fsgid": 0
+                },
+                "in_init_tree": false
+            },
+            "parent": {
+                "exec_id": "bmV4dXM6Nzk2MTMzNTkyMzQ3NjQ6MjI1Mzc=",
+                "pid": 22537,
+                "uid": 0,
+                "cwd": "/root",
+                "binary": "/bin/bash",
+                "flags": "execve clone",
+                "start_time": "2025-09-05T11:04:30.223549420Z",
+                "auid": 2002,
+                "parent_exec_id": "bmV4dXM6Nzk2MTMzNTMxMTczOTA6MjI1MzU=",
+                "cap": {
+                    "permitted": [
+                        "CAP_CHOWN",
+                        "DAC_OVERRIDE",
+                        "CAP_DAC_READ_SEARCH",
+                        "CAP_FOWNER",
+                        "CAP_FSETID",
+                        "CAP_KILL",
+                        "CAP_SETGID",
+                        "CAP_SETUID",
+                        "CAP_SETPCAP",
+                        "CAP_LINUX_IMMUTABLE",
+                        "CAP_NET_BIND_SERVICE",
+                        "CAP_NET_BROADCAST",
+                        "CAP_NET_ADMIN",
+                        "CAP_NET_RAW",
+                        "CAP_IPC_LOCK",
+                        "CAP_IPC_OWNER",
+                        "CAP_SYS_MODULE",
+                        "CAP_SYS_RAWIO",
+                        "CAP_SYS_CHROOT",
+                        "CAP_SYS_PTRACE",
+                        "CAP_SYS_PACCT",
+                        "CAP_SYS_ADMIN",
+                        "CAP_SYS_BOOT",
+                        "CAP_SYS_NICE",
+                        "CAP_SYS_RESOURCE",
+                        "CAP_SYS_TIME",
+                        "CAP_SYS_TTY_CONFIG",
+                        "CAP_MKNOD",
+                        "CAP_LEASE",
+                        "CAP_AUDIT_WRITE",
+                        "CAP_AUDIT_CONTROL",
+                        "CAP_SETFCAP",
+                        "CAP_MAC_OVERRIDE",
+                        "CAP_MAC_ADMIN",
+                        "CAP_SYSLOG",
+                        "CAP_WAKE_ALARM",
+                        "CAP_BLOCK_SUSPEND",
+                        "CAP_AUDIT_READ",
+                        "CAP_PERFMON",
+                        "CAP_BPF",
+                        "CAP_CHECKPOINT_RESTORE"
+                    ],
+                    "effective": [
+                        "CAP_CHOWN",
+                        "DAC_OVERRIDE",
+                        "CAP_DAC_READ_SEARCH",
+                        "CAP_FOWNER",
+                        "CAP_FSETID",
+                        "CAP_KILL",
+                        "CAP_SETGID",
+                        "CAP_SETUID",
+                        "CAP_SETPCAP",
+                        "CAP_LINUX_IMMUTABLE",
+                        "CAP_NET_BIND_SERVICE",
+                        "CAP_NET_BROADCAST",
+                        "CAP_NET_ADMIN",
+                        "CAP_NET_RAW",
+                        "CAP_IPC_LOCK",
+                        "CAP_IPC_OWNER",
+                        "CAP_SYS_MODULE",
+                        "CAP_SYS_RAWIO",
+                        "CAP_SYS_CHROOT",
+                        "CAP_SYS_PTRACE",
+                        "CAP_SYS_PACCT",
+                        "CAP_SYS_ADMIN",
+                        "CAP_SYS_BOOT",
+                        "CAP_SYS_NICE",
+                        "CAP_SYS_RESOURCE",
+                        "CAP_SYS_TIME",
+                        "CAP_SYS_TTY_CONFIG",
+                        "CAP_MKNOD",
+                        "CAP_LEASE",
+                        "CAP_AUDIT_WRITE",
+                        "CAP_AUDIT_CONTROL",
+                        "CAP_SETFCAP",
+                        "CAP_MAC_OVERRIDE",
+                        "CAP_MAC_ADMIN",
+                        "CAP_SYSLOG",
+                        "CAP_WAKE_ALARM",
+                        "CAP_BLOCK_SUSPEND",
+                        "CAP_AUDIT_READ",
+                        "CAP_PERFMON",
+                        "CAP_BPF",
+                        "CAP_CHECKPOINT_RESTORE"
+                    ]
+                },
+                "ns": {
+                    "uts": {
+                        "inum": 4026532654
+                    },
+                    "ipc": {
+                        "inum": 4026532655
+                    },
+                    "mnt": {
+                        "inum": 4026532653
+                    },
+                    "pid": {
+                        "inum": 4026532656
+                    },
+                    "pid_for_children": {
+                        "inum": 4026532656
+                    },
+                    "net": {
+                        "inum": 4026532008,
+                        "is_host": true
+                    },
+                    "time": {
+                        "inum": 4026531834,
+                        "is_host": true
+                    },
+                    "time_for_children": {
+                        "inum": 4026531834,
+                        "is_host": true
+                    },
+                    "cgroup": {
+                        "inum": 4026531835,
+                        "is_host": true
+                    },
+                    "user": {
+                        "inum": 4026531837,
+                        "is_host": true
+                    }
+                },
+                "tid": 22537,
+                "process_credentials": {
+                    "uid": 0,
+                    "gid": 0,
+                    "euid": 0,
+                    "egid": 0,
+                    "suid": 0,
+                    "sgid": 0,
+                    "fsuid": 0,
+                    "fsgid": 0
+                },
+                "in_init_tree": false
+            },
+            "ancestors": [
+                {
+                    "exec_id": "bmV4dXM6Nzk2MTMzNTMxMTczOTA6MjI1MzU=",
+                    "pid": 22535,
+                    "uid": 0,
+                    "cwd": "/bootflash/home/admin",
+                    "binary": "/bin/su",
+                    "arguments": "-",
+                    "flags": "execve clone",
+                    "start_time": "2025-09-05T11:04:30.217432306Z",
+                    "auid": 2002,
+                    "parent_exec_id": "bmV4dXM6Nzk2MTMzMzY0ODk0NDc6MjI1MzM=",
+                    "cap": {
+                        "permitted": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ],
+                        "effective": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ]
+                    },
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22535,
+                    "process_credentials": {
+                        "uid": 0,
+                        "gid": 0,
+                        "euid": 0,
+                        "egid": 0,
+                        "suid": 0,
+                        "sgid": 0,
+                        "fsuid": 0,
+                        "fsgid": 0
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6Nzk2MTMzMzY0ODk0NDc6MjI1MzM=",
+                    "pid": 22533,
+                    "uid": 0,
+                    "cwd": "/bootflash/home/admin",
+                    "binary": "/usr/bin/sudo",
+                    "arguments": "su -",
+                    "flags": "execve",
+                    "start_time": "2025-09-05T11:04:30.200805193Z",
+                    "auid": 2002,
+                    "parent_exec_id": "bmV4dXM6Nzk2MTMzMzQ2Njg2NDA6MjI1MzM=",
+                    "cap": {
+                        "permitted": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ],
+                        "effective": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ]
+                    },
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22533,
+                    "process_credentials": {
+                        "uid": 2002,
+                        "gid": 503,
+                        "euid": 0,
+                        "egid": 0,
+                        "suid": 0,
+                        "sgid": 0,
+                        "fsuid": 0,
+                        "fsgid": 0
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6Nzk2MTMzMzQ2Njg2NDA6MjI1MzM=",
+                    "pid": 22533,
+                    "uid": 2002,
+                    "cwd": "/bootflash/home/admin",
+                    "binary": "/bin/bash",
+                    "arguments": "-c \"sudo su -\"",
+                    "flags": "execve clone",
+                    "start_time": "2025-09-05T11:04:30.198984685Z",
+                    "auid": 2002,
+                    "parent_exec_id": "bmV4dXM6Nzk2MTMyNzg2MjU5MDY6MjI1MzI=",
+                    "cap": {},
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22533,
+                    "process_credentials": {
+                        "uid": 2002,
+                        "gid": 503,
+                        "euid": 2002,
+                        "egid": 503,
+                        "suid": 2002,
+                        "sgid": 503,
+                        "fsuid": 2002,
+                        "fsgid": 503
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6Nzk2MTMyNzg2MjU5MDY6MjI1MzI=",
+                    "pid": 22532,
+                    "uid": 2002,
+                    "cwd": "/var/home/admin",
+                    "binary": "/isan/bin/vsh.bin",
+                    "flags": "execve",
+                    "start_time": "2025-09-05T11:04:30.142941694Z",
+                    "auid": 2002,
+                    "parent_exec_id": "bmV4dXM6NzczMDY4NjcyNTMwNDE6MjI1NzE=",
+                    "refcnt": 1,
+                    "cap": {},
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22532,
+                    "process_credentials": {
+                        "uid": 2002,
+                        "gid": 503,
+                        "euid": 2002,
+                        "egid": 503,
+                        "suid": 2002,
+                        "sgid": 503,
+                        "fsuid": 2002,
+                        "fsgid": 503
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6NzczMDY4NjcyNTMwNDE6MjI1NzE=",
+                    "pid": 22571,
+                    "uid": 2002,
+                    "cwd": "/var/home/admin",
+                    "binary": "/isan/bin/vsh.bin",
+                    "flags": "execve",
+                    "start_time": "2025-09-05T10:26:17.605477695Z",
+                    "auid": 2002,
+                    "parent_exec_id": "bmV4dXM6NzczMDY4NTY5NzMxOTQ6MjI1NzE=",
+                    "cap": {},
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22571,
+                    "process_credentials": {
+                        "uid": 2002,
+                        "gid": 503,
+                        "euid": 2002,
+                        "egid": 503,
+                        "suid": 2002,
+                        "sgid": 503,
+                        "fsuid": 2002,
+                        "fsgid": 503
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6NzczMDY4NTY5NzMxOTQ6MjI1NzE=",
+                    "pid": 22571,
+                    "uid": 2002,
+                    "cwd": "/var/home/admin",
+                    "binary": "/isan/bin/vsh",
+                    "arguments": "/isan/bin/vsh",
+                    "flags": "execve",
+                    "start_time": "2025-09-05T10:26:17.595197753Z",
+                    "auid": 2002,
+                    "parent_exec_id": "bmV4dXM6NzczMDY4NDg5NTY2Mjc6MjI1NzE=",
+                    "cap": {},
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22571,
+                    "process_credentials": {
+                        "uid": 2002,
+                        "gid": 503,
+                        "euid": 2002,
+                        "egid": 503,
+                        "suid": 2002,
+                        "sgid": 503,
+                        "fsuid": 2002,
+                        "fsgid": 503
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6NzczMDY4NDg5NTY2Mjc6MjI1NzE=",
+                    "pid": 22571,
+                    "uid": 2002,
+                    "cwd": "/var/home/admin",
+                    "binary": "/isan/bin/vsh_perm",
+                    "arguments": "/isan/bin/vsh_perm",
+                    "flags": "execve clone",
+                    "start_time": "2025-09-05T10:26:17.587181928Z",
+                    "auid": 2002,
+                    "parent_exec_id": "bmV4dXM6NzczMDY3ODk5MzYwNzk6MjI1NzA=",
+                    "cap": {},
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22571,
+                    "process_credentials": {
+                        "uid": 2002,
+                        "gid": 503,
+                        "euid": 2002,
+                        "egid": 503,
+                        "suid": 2002,
+                        "sgid": 503,
+                        "fsuid": 2002,
+                        "fsgid": 503
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6NzczMDY3ODk5MzYwNzk6MjI1NzA=",
+                    "pid": 22570,
+                    "uid": 0,
+                    "cwd": "/var/sysmgr/work",
+                    "binary": "/isan/sbin/dcos_sshd",
+                    "arguments": "-i -f /isan/etc/dcos_sshd_config",
+                    "flags": "execve",
+                    "start_time": "2025-09-05T10:26:17.528160963Z",
+                    "auid": 4294967295,
+                    "parent_exec_id": "bmV4dXM6NzczMDM0OTY0NDIzNzc6MjI1NTI=",
+                    "refcnt": 1,
+                    "cap": {
+                        "permitted": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ],
+                        "effective": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ]
+                    },
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22570,
+                    "process_credentials": {
+                        "uid": 0,
+                        "gid": 0,
+                        "euid": 0,
+                        "egid": 0,
+                        "suid": 0,
+                        "sgid": 0,
+                        "fsuid": 0,
+                        "fsgid": 0
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6NzczMDM0OTY0NDIzNzc6MjI1NTI=",
+                    "pid": 22552,
+                    "uid": 0,
+                    "cwd": "/var/sysmgr/work",
+                    "binary": "/isan/sbin/dcos_sshd",
+                    "arguments": "-i -f /isan/etc/dcos_sshd_config",
+                    "flags": "execve clone",
+                    "start_time": "2025-09-05T10:26:14.234667433Z",
+                    "auid": 4294967295,
+                    "parent_exec_id": "bmV4dXM6Nzc3MTAwMDAwMDA6MTYwNTU=",
+                    "cap": {
+                        "permitted": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ],
+                        "effective": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ]
+                    },
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 22552,
+                    "process_credentials": {
+                        "uid": 0,
+                        "gid": 0,
+                        "euid": 0,
+                        "egid": 0,
+                        "suid": 0,
+                        "sgid": 0,
+                        "fsuid": 0,
+                        "fsgid": 0
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6Nzc3MTAwMDAwMDA6MTYwNTU=",
+                    "pid": 16055,
+                    "uid": 0,
+                    "cwd": "/var/sysmgr/work",
+                    "binary": "/isan/bin/routing-sw/dcos-xinetd",
+                    "arguments": "-syslog local7 -loop 250 -stayalive -reuse -dontfork -f /etc/dcos-xinetd.conf -pidfile /etc/dcos-xinetd.pid",
+                    "flags": "procFS auid",
+                    "start_time": "2025-09-04T13:06:43.628775360Z",
+                    "auid": 4294967295,
+                    "parent_exec_id": "bmV4dXM6NjA2NTAwMDAwMDA6Mjk5NA==",
+                    "cap": {
+                        "permitted": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ],
+                        "effective": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ]
+                    },
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 16055,
+                    "process_credentials": {
+                        "uid": 0,
+                        "gid": 0,
+                        "euid": 0,
+                        "egid": 0,
+                        "suid": 0,
+                        "sgid": 0,
+                        "fsuid": 0,
+                        "fsgid": 0
+                    },
+                    "in_init_tree": false
+                },
+                {
+                    "exec_id": "bmV4dXM6NjA2NTAwMDAwMDA6Mjk5NA==",
+                    "pid": 2994,
+                    "uid": 0,
+                    "cwd": "/logflash/core/tmp/work",
+                    "binary": "/isan/sbin/sysmgr",
+                    "arguments": "-V",
+                    "flags": "procFS auid",
+                    "start_time": "2025-09-04T13:06:26.568775338Z",
+                    "auid": 4294967295,
+                    "parent_exec_id": "bmV4dXM6MjM4NjAwMDAwMDA6OTczNA==",
+                    "cap": {
+                        "permitted": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ],
+                        "effective": [
+                            "CAP_CHOWN",
+                            "DAC_OVERRIDE",
+                            "CAP_DAC_READ_SEARCH",
+                            "CAP_FOWNER",
+                            "CAP_FSETID",
+                            "CAP_KILL",
+                            "CAP_SETGID",
+                            "CAP_SETUID",
+                            "CAP_SETPCAP",
+                            "CAP_LINUX_IMMUTABLE",
+                            "CAP_NET_BIND_SERVICE",
+                            "CAP_NET_BROADCAST",
+                            "CAP_NET_ADMIN",
+                            "CAP_NET_RAW",
+                            "CAP_IPC_LOCK",
+                            "CAP_IPC_OWNER",
+                            "CAP_SYS_MODULE",
+                            "CAP_SYS_RAWIO",
+                            "CAP_SYS_CHROOT",
+                            "CAP_SYS_PTRACE",
+                            "CAP_SYS_PACCT",
+                            "CAP_SYS_ADMIN",
+                            "CAP_SYS_BOOT",
+                            "CAP_SYS_NICE",
+                            "CAP_SYS_RESOURCE",
+                            "CAP_SYS_TIME",
+                            "CAP_SYS_TTY_CONFIG",
+                            "CAP_MKNOD",
+                            "CAP_LEASE",
+                            "CAP_AUDIT_WRITE",
+                            "CAP_AUDIT_CONTROL",
+                            "CAP_SETFCAP",
+                            "CAP_MAC_OVERRIDE",
+                            "CAP_MAC_ADMIN",
+                            "CAP_SYSLOG",
+                            "CAP_WAKE_ALARM",
+                            "CAP_BLOCK_SUSPEND",
+                            "CAP_AUDIT_READ",
+                            "CAP_PERFMON",
+                            "CAP_BPF",
+                            "CAP_CHECKPOINT_RESTORE"
+                        ]
+                    },
+                    "ns": {
+                        "uts": {
+                            "inum": 4026532654
+                        },
+                        "ipc": {
+                            "inum": 4026532655
+                        },
+                        "mnt": {
+                            "inum": 4026532653
+                        },
+                        "pid": {
+                            "inum": 4026532656
+                        },
+                        "pid_for_children": {
+                            "inum": 4026532656
+                        },
+                        "net": {
+                            "inum": 4026532008,
+                            "is_host": true
+                        },
+                        "time": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "time_for_children": {
+                            "inum": 4026531834,
+                            "is_host": true
+                        },
+                        "cgroup": {
+                            "inum": 4026531835,
+                            "is_host": true
+                        },
+                        "user": {
+                            "inum": 4026531837,
+                            "is_host": true
+                        }
+                    },
+                    "tid": 2994,
+                    "process_credentials": {
+                        "uid": 0,
+                        "gid": 0,
+                        "euid": 0,
+                        "egid": 0,
+                        "suid": 0,
+                        "sgid": 0,
+                        "fsuid": 0,
+                        "fsgid": 0
+                    },
+                    "in_init_tree": false
+                }
+            ]
+        },
+        "node_name": "nexus",
+        "time": "2025-09-05T11:05:09.239082627Z"
+    },
+    "rule": {
+        "name": "mandate+alert-1-alert-rule-2-privilege-execution-by-admin",
+        "severity": "INFO",
+        "message": "Privileged Process Execution by admin user detected",
+        "tags": [
+            "privilege-escalation",
+            "attack.privilege-escalation"
+        ]
+    }
+}
