@@ -143,4 +143,4 @@ grep -i "violation\|blocked\|denied" /nxos/nxsecure/tetragon_logs/*.log
 [![Cisco Live Protect Demo](https://img.youtube.com/vi/9mKFCtyw_VU/maxresdefault.jpg)](https://youtu.be/9mKFCtyw_VU)
 
 #### Live Demo: Cisco Live Protect in Action
-[![Live Demo: Cisco Live Protect in Action](https://img.youtube.com/vi/JDvmlECqYg4/maxresdefault.jpg)](https://www.youtube.com/live/JDvmlECqYg4?si=W97OXcpCv9NQnFMv&t=1689)
+[![Live Demo: Cisco Live Protect in Action](https://img.youtube.com/vi/JDvmlECqYg4/maxresdefault.jpg)](https://www.youtube.com/watch?v=JDvmlECqYg4&t=1689)
