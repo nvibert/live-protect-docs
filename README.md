@@ -27,18 +27,17 @@ The current Phase 1 QR1F release includes three primary monitoring policies:
 
 #### Future Roadmap
 
-- **Enforcement Capabilities**: Future releases will include policy enforcement (blocking/preventing actions)
-- **Extended Policies**: Additional monitoring and security policies are planned for staging releases
-- **Vulnerability Detection**: Advanced threat detection capabilities are in development
+**Core Security Capabilities:**
+- **Policy Enforcement**: Future releases will include policy enforcement capabilities (blocking/preventing actions)
+- **Extended Monitoring Policies**: Additional security policies and monitoring capabilities beyond the current Phase 1 set
+- **Advanced Threat Detection**: Enhanced vulnerability detection and exploit identification capabilities
 
-**Planned Dashboard and Management Features:**
-- **Central Nexus Dashboard**: Provides an overview of network devices and health status
-- **CVE Scanning and Management**: Automated device scanning for CVEs with escalation of relevant vulnerabilities for review
-- **Compensating Controls**: Available for review and deployment when vulnerabilities are identified
-- **Policy Deployment**: Administrators can select target workloads to push out policies and compensating controls
-- **Comprehensive Monitoring**: Monitor devices for performance, investigate alerts, and review exploit logs for any triggered policies
-
-> 📋 **Note**: This is an observability-first approach that allows administrators to understand system behavior and security events before implementing enforcement policies.
+**Centralized Management Platform:**
+- **Central Nexus Dashboard**: Network-wide overview of device status, health, and security posture
+- **Automated CVE Management**: Device scanning for vulnerabilities with escalation and review workflows
+- **Compensating Controls**: Automated deployment of security controls when vulnerabilities are identified
+- **Targeted Policy Deployment**: Granular control for pushing policies to specific workloads and devices
+- **Comprehensive Analytics**: Performance monitoring, alert investigation, and detailed exploit log analysis
 
 ## Prerequisites
 
