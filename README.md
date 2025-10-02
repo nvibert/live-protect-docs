@@ -237,4 +237,4 @@ These sample logs help you understand the structure and types of events that Tet
 #### Live Demo: Cisco Live Protect in Action
 [![Live Demo: Cisco Live Protect in Action](https://img.youtube.com/vi/JDvmlECqYg4/hqdefault.jpg)](https://www.youtube.com/watch?v=JDvmlECqYg4&t=1689)
 
-> 🎥 **Note**: Click the video thumbnails above to watch on YouTube. The second video starts at timestamp 28:09 where the Live Protect demo begins.
+> 🎥 **Note**: In this eCHO - eBPF and Cilium Office hours episode, Dan and I talked for the first half hour or so about systems where we could be running Tetragon - including NAS storage, Raspberry Pis, etc. - before showing a 25-minute demo of Live Protect on a virtual NX-OS device. The demo starts at timestamp 28:09.
