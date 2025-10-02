@@ -222,12 +222,19 @@ These sample logs help you understand the structure and types of events that Tet
 ### Official Cisco Documentation
 - [Cisco NX-OS Security Configuration Guide - Live Protect](https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/106x/configuration/security/cisco-nexus-9000-series-nx-os-security-configuration-guide-release-106x/m-secure-nxos-with-cisco-live-protect.html#g-)
 - [NX-OS Live Protect Solution Overview](https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/nx-os-software/solution-overview-nx-os-live-protect.html)
+- [Cisco Nexus 9000 NX-OS Release Notes 10.6(1)F](https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/106x/release-notes/cisco-nexus-9000-nxos-release-notes-1061F.html)
 
 ### News and Announcements
 - [Cisco Unveils Secure Network Architecture to Accelerate Workplace AI Transformation](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m06/cisco-unveils-secure-network-architecture-to-accelerate-workplace-ai-transformation.html)
 
 ### Technical Blogs and Partnerships
 - [Isovalent + Cisco Nexus: Better Together](https://isovalent.com/blog/post/isovalent-cisco-nexus-better-together/)
+
+### Tetragon Resources
+- [Cilium Tetragon](https://tetragon.io/) - Official Tetragon project website
+- [Tetragon Getting Started Lab](https://isovalent.com/labs/tetragon-getting-started/) - Hands-on introduction to Tetragon
+- [Tetragon Security Visibility Lab](https://isovalent.com/labs/tetragon-security-visibility/) - Deep dive into security observability features
+- [Tetragon with Splunk Integration Lab](https://isovalent.com/labs/tetragon-splunk/) - Learn how to integrate Tetragon with Splunk for security analytics
 
 ### Video Resources
 
