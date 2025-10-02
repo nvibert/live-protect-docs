@@ -156,15 +156,7 @@ cat /isan/etc/nxsecure/mandate/phase1-mandate.yaml
 2. **Privilege Escalation Detection** - Monitors when admin user processes gain root privileges  
 3. **Non-Root VSH Access** - Logs Virtual Shell command execution by non-root users
 
-### Custom Policy Development
 
-For development and testing of custom policies:
-
-```bash
-# Generate a custom mandate file
-cd /isan/etc/nxsecure/mandate/
-./generate_mandate.py your-policy-directory > custom-mandate.yaml
-```
 ## Monitoring and Logging
 
 ### Log Location
@@ -178,8 +170,6 @@ cd /nxos/nxsecure/tetragon_logs
 # List available log files
 ls -la
 
-# View recent logs
-tail -f tetragon.log
 ```
 
 ### Log Analysis
@@ -190,11 +180,6 @@ Common log analysis commands:
 # Search for specific events
 grep "ALERT" /nxos/nxsecure/tetragon_logs/*.log
 
-# Monitor real-time events
-tail -f /nxos/nxsecure/tetragon_logs/tetragon.log | grep "process_exec"
-
-# Check for policy violations
-grep -i "violation\|blocked\|denied" /nxos/nxsecure/tetragon_logs/*.log
 ```
 
 ### Sample Log Files
